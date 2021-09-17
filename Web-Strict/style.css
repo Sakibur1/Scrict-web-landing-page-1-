@@ -1,0 +1,270 @@
+/*============ google font ============ */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Righteous&display=swap');
+
+/*============ common css ============ */
+body{
+	font-family: 'Lato', sans-serif;
+}
+img{
+	width: 100%;
+	height: auto;	
+}
+a:hover{
+	text-decoration: none;
+}
+.strict-sec-title{
+	padding-bottom:20px;
+	text-align: center;
+}
+.strict-sec-title h2{
+	color:#2d3950;
+	font-size: 35px;
+}
+p{
+	font-size: 15px;
+	text-align: center;
+	color:#999999;
+}
+
+/*============ header css ============ */
+.strict-header{
+	background: #f6f9f9;
+	padding: 25px;
+}
+.strict-logo{
+	
+}
+.strict-menu{}
+.strict-menu ul li a{
+	color:#2d3950;
+	font-family: 'Oswald', sans-serif;
+	padding: 10px 20px;
+	display: block;
+	text-transform: capitalize;
+	font-weight: 600;
+	transition: .5s;
+}
+.strict-menu ul li a:hover{
+	color: #15a4fa;
+}
+/*============ banner css ============ */
+.strict-banner{
+	background-image: url("img/baner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 200px 0 25px;
+}
+.strict-banner-text{}
+.strict-banner-text h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 90px;
+	font-weight: 800;
+	padding-bottom: 30px;
+}
+.strict-banner-text span{
+	color: #fff;
+	font-size: 15px;
+	border-top: 1px solid #15a4fa;
+	padding: 30px 20px 0;
+	display: inline-block;
+}
+.strict-banner-button{
+	padding: 65px 0;
+}
+.strict-banner-button a{
+	color: #fff;
+	padding: 10px 20px;
+	border: 1px solid #15a4fa;
+	border-radius: 3px;
+	transition: .5s;
+}
+.strict-banner-button a:hover{
+	background: #15a4fa;
+}
+.strict-banner-button i{
+	display: block;
+	color: #fff;
+	margin-top: 150px;
+}
+
+/*============ About css ============ */
+
+.strict-about{
+	background: #f6f9f9;
+	padding: 80px;
+}
+.strict-about-content p{
+	font-size: 20px;
+}
+/*============ service css ============ */
+.strict-service{
+	background: #fff;
+	padding: 80px 0;
+}
+.strict-ser-content{
+	text-align: center;
+}
+.strict-ser-icon{
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.strict-ser-icon i{
+	color: #fff;
+	font-size: 25px;
+}
+.strict-ser-text{}
+.strict-ser-text h4{
+	font-size: 25px; 
+}
+.strict-ser-text h4 p{
+	
+}
+/*============ portfolio css ============ */
+.strict-portfolio{
+	padding: 80px;
+	background: #f6f9f9;
+}
+.strict-port-content{
+
+}
+.strict-port-content h2{
+  text-align: center;
+}
+.strict-port-content p{
+	padding: 10px 0;
+	margin-bottom: 80px;
+}
+.strict-port-img{
+	position: relative;
+	margin-bottom: 30px;
+}
+.strict-port-overly{
+	background: rgba(21, 164, 250, .9);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: .5s;
+}
+.strict-port-overly ul li{
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+}
+.strict-port-overly ul li i{
+	padding: 10px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	transition: .5s;
+}
+.strict-port-img:hover .strict-port-overly{
+	opacity: 1;
+}
+/*============ contact css ============ */
+
+.strict-contact{
+	background-image: url("img/contact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.strict-contact-overly{
+	background: rgba(45, 57, 80, .9);
+	padding: 80px 0;
+}
+.strict-contact-overly .strict-sec-title h2{
+	color: #fff;
+}
+.strict-contact-form .form-group input,
+.strict-contact-form .form-group textarea{
+	background-color: transparent;
+	border: 1px solid #999999; 
+}
+.strict-form-bottom{
+	overflow: hidden;
+}
+.strict-form-bottom-left{
+	float: left;
+}
+.strict-form-bottom-left input{
+	margin-right: 5px;
+}
+.strict-form-bottom-left label{
+	color: #fff;
+}
+.strict-form-bottom-right{
+	float: right;
+}
+.strict-form-bottom-right input{
+	color: #fff;
+	border: 1px solid #15a4fa;
+	border-radius:3px;
+	background-color: transparent;
+	padding: 3px 20px; 
+	transition: .5s;
+}
+.strict-form-bottom-right input:hover{
+	background: #15a4fa;
+}
+
+/*============ footer css ============ */
+.strict-footer{
+	padding: 25px 0;
+	background: #f6f9f9;
+}
+.strict-copyritht p{
+	text-align:left;
+}
+.strict-social-icon ul li{
+	height: 35px;
+	width: 35px;
+	background: #15a4fa;
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+}
+.strict-social-icon ul li i{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
